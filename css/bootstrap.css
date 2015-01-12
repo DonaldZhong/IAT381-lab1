@@ -84,6 +84,9 @@ sup {
 sub {
   bottom: -.25em;
 }
+br{
+  padding-top: 50px;
+}
 img {
   border: 0;
 }
