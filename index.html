@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Donald Zhong</title>
+    <title>Donald Zhong - IAT 381 Lab 1</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/bootstrap.min.css">
@@ -9,43 +9,40 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
-        <!-- <div class="navbar-header"> -->
-         <!--  <a class="navbar-brand" href="#">Donald Zhong</a> -->
-        <!-- </div> -->
-        <div>
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <div class="container">
-      <div class="row">
+        <h1>IAT 381 Lab 1 - D101</h1>
+          <div class="row">
+            <div class="col-md-4">
+              <h2>Donald Zhong</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a venenatis massa, quis ullamcorper sem. Phasellus mi ipsum, ornare vel malesuada et, commodo sit amet mi. Praesent imperdiet venenatis iaculis. Nulla facilisi. Donec fermentum, nibh ut pellentesque convallis, ipsum sem ultrices turpis, sed rutrum metus orci id enim. Integer risus magna, venenatis sit amet malesuada eu, pulvinar a orci. In dolor elit, vestibulum non faucibus in, fermentum ac tortor. Nullam molestie metus nunc, a porta felis facilisis sed. Nam egestas gravida nibh, non hendrerit mi fermentum in. Duis eu nunc sodales, iaculis quam rhoncus, volutpat lorem. Sed id dolor leo.</p>
+            </div>
+          <div class="col-md-4">
+              <h2>301167293</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a venenatis massa, quis ullamcorper sem. Phasellus mi ipsum, ornare vel malesuada et, commodo sit amet mi. Praesent imperdiet venenatis iaculis. Nulla facilisi. Donec fermentum, nibh ut pellentesque convallis, ipsum sem ultrices turpis, sed rutrum metus orci id enim. Integer risus magna, venenatis sit amet malesuada eu, pulvinar a orci. In dolor elit, vestibulum non faucibus in, fermentum ac tortor. Nullam molestie metus nunc, a porta felis facilisis sed. Nam egestas gravida nibh, non hendrerit mi fermentum in. Duis eu nunc sodales, iaculis quam rhoncus, volutpat lorem. Sed id dolor leo.</p>
+          </div>
         <div class="col-md-4">
+            <h2>Donaldz@sfu.ca</h2> 
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a venenatis massa, quis ullamcorper sem. Phasellus mi ipsum, ornare vel malesuada et, commodo sit amet mi. Praesent imperdiet venenatis iaculis. Nulla facilisi. Donec fermentum, nibh ut pellentesque convallis, ipsum sem ultrices turpis, sed rutrum metus orci id enim. Integer risus magna, venenatis sit amet malesuada eu, pulvinar a orci. In dolor elit, vestibulum non faucibus in, fermentum ac tortor. Nullam molestie metus nunc, a porta felis facilisis sed. Nam egestas gravida nibh, non hendrerit mi fermentum in. Duis eu nunc sodales, iaculis quam rhoncus, volutpat lorem. Sed id dolor leo.</p>
         </div>
-        <div class="col-md-4"> <h1>IAT 381 - Lab 1 Challenge</h1>
-          <br><br>
-          <ol>
-            <li>Create a github account and iat381 repository</li>
-            <li>Create a page that uses bootstrap as a theme</li>
-            <li>Add a nav-tabs component that is functional (tabs show different pages)</li>
-            <li>Commit and push your page to gh-pages branch of your repo</li>
-            <li>Link to your live bootstrap page, by PASTING and CREATING the link in the canvas text editor</li>
-            <br>
-            <p>*** MAKE SURE IT IS A LINK!!! ***</p>
-          </ol>
-        </div>       
-        <div class="col-md-4"> </div>
-        <div class="clearfix visible-lg"></div>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="text/javascript"></script>
+
+      <div role="tabpanel">
+        <ul id="mytabs" class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">About Me</a></li>
+        <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Contact</a></li>
+        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li></ul>
+
+      <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active" id="home">IAT 381 Lab Challenge</div>
+          <div role="tabpanel" class="tab-pane" id="profile">Donald Zhong</div>
+          <div role="tabpanel" class="tab-pane" id="messages"><a href="mailto:Donaldz@sfu.ca">Donaldz@sfu.ca</a></div>
+          <div role="tabpanel" class="tab-pane" id="settings">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a venenatis massa, quis ullamcorper sem. Phasellus mi ipsum, ornare vel malesuada et, commodo sit amet mi. Praesent imperdiet venenatis iaculis. Nulla facilisi. Donec fermentum, nibh ut pellentesque convallis, ipsum sem ultrices turpis, sed rutrum metus orci id enim.</div>
+     </div>
+     </div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
